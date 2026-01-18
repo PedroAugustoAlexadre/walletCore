@@ -9,7 +9,7 @@ CREATE TABLE users (
 );
 
 CREATE TABLE transactions (
-    id SERIAL PRIMARY KEY,
+    id UUID PRIMARY KEY,
     amount DECIMAL(19, 2) NOT NULL,
     sender_id UUID NOT NULL,
     receiver_id UUID NOT NULL,
