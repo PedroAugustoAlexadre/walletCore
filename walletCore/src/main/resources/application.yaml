@@ -5,3 +5,4 @@ spring:
     name: walletCore
   flyway:
     locations: classpath:db/migration
+    repair-on-migrate: true
